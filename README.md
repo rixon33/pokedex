@@ -26,7 +26,7 @@ Una Pokédex interactiva construida con **React**, **TypeScript** y **Tailwind C
 
 ## 🌐 Demo
 
-> [🔗 Ver aplicación en vivo](https://TU-DEPLOY.vercel.app)
+> [🔗 Ver aplicación en vivo](https://rixon33.github.io/pokedex/)
 
 ---
 
