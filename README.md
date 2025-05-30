@@ -1,54 +1,49 @@
-# React + TypeScript + Vite
+# 🔮 Pokédex Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una Pokédex interactiva construida con **React**, **TypeScript** y **Tailwind CSS**, que consume la [PokeAPI](https://pokeapi.co/) para mostrar información detallada de los Pokémon de forma moderna y responsiva.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚙️ Funcionalidades
 
-## Expanding the ESLint configuration
+- 🔍 Búsqueda de Pokémon por nombre
+- 🎨 Filtro por tipo con estilos personalizados
+- 📊 Vista detallada con estadísticas, habilidades, altura y peso
+- 🧩 Diseño responsivo para escritorio y móvil
+- ⚡ Animaciones suaves y colores por tipo
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🧪 Tecnologías
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- React
+- TypeScript
+- Tailwind CSS
+- Context API
+- PokeAPI
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 🌐 Demo
+
+> [🔗 Ver aplicación en vivo](https://TU-DEPLOY.vercel.app)
+
+---
+
+## 🖼️ Capturas
+
+### Vista principal con filtros por tipo
+![Main view](https://github.com/user-attachments/assets/65666e0d-6336-4be0-a346-56b22066cccc)
+
+### Detalle de un Pokémon
+![Detail view](https://github.com/user-attachments/assets/e9463034-e632-4f05-bc93-ddea8e66a98d)
+
+### Vista mobile
+![Mobile view](https://github.com/user-attachments/assets/3fe6455f-ee4d-4cd3-87ed-c34dad4c4ad4)
+
+---
+
+ Contacto
+ LinkedIn: https://www.linkedin.com/in/rixon-huaman/
+ Email: rixoncel@gmail.com
+
